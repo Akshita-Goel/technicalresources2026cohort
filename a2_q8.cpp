@@ -5,8 +5,8 @@ int main() {
     cin>>n;
     int sp=n-1;
     int st=1;
-    for(int i=1;i<=n;i++){
-        for(int j=1;j<=sp;j++){
+    for(int i=1;i<=n;i++) {
+        for(int j=1;j<=sp;j++) {
             cout<<('\t');
         }   
         cout<<"*"<<endl;
